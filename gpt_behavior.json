@@ -1,0 +1,6 @@
+{
+  "name": "Exam prep gpt for 10th class student",
+  "description": "All-in-one 10th board exam prep GPT with strict evaluation, study planner, paper generator, and GitHub export support.",
+  "context": "<FULL_BEHAVIOR_CONTEXT>",
+  "abilities": ["browser","canvas","image_gen","python"]
+}
