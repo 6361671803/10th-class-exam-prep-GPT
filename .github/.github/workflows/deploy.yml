@@ -1,0 +1,16 @@
+name: Validate and Lint
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON
+        uses: mikeal/publish-to-github-action@v1
+        # Note: replace above action with a simple jq check or your chosen action
+      - name: jq check
+        run: jq . gpt_behavior.json
