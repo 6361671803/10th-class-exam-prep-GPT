@@ -1,0 +1,24 @@
+# exam-prep-gpt
+
+Exam prep GPT for Class 10 students (CBSE & KSEAB).  
+This repository contains the exported GPT behavior JSON and helpful scripts to manage or update the GPT configuration.
+
+## Contents
+- `gpt_behavior.json` — exported behavior and metadata for the GPT.
+- `README.md` — this file.
+- `LICENSE` — MIT license.
+- `.gitignore` — common ignores.
+- `COMMANDS.txt` — git commands to push this repo.
+- `.github/workflows/deploy.yml` — example CI workflow (lint/test).
+
+## How to add this repository to your GitHub
+1. Create a local folder and save all files from this repo.
+2. Follow the commands in `COMMANDS.txt` to initialize and push.
+3. If you need a private repo, create one on GitHub and use that remote URL.
+
+## Important
+- **Do not** put secrets (tokens, credentials) in the repo. Use GitHub Secrets.
+- Update `gpt_behavior.json` if you change the GPT’s behavior.
+
+## License
+This project uses the MIT License — see `LICENSE`.
